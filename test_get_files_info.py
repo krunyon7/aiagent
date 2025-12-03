@@ -1,5 +1,6 @@
 from functions.get_files_info import get_files_info
 
+
 def test_results(working_directory, directory):
     if directory == ".":
         return (
